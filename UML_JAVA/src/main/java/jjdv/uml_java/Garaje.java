@@ -5,6 +5,8 @@
  */
 package jjdv.uml_java;
 
+import java.util.List;
+
 /**
  *
  * @author poppys
@@ -12,4 +14,5 @@ package jjdv.uml_java;
 public class Garaje {
     private String codigo;
     private int cantidadMaxCoches;
+    private List <Coche> coches;
 }

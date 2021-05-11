@@ -5,6 +5,8 @@
  */
 package jjdv.uml_java;
 
+import java.util.List;
+
 /**
  *
  * @author poppys
@@ -12,5 +14,6 @@ package jjdv.uml_java;
 public class Agencia {
     private String nombre;
     private String Direccion;
+    private List <Reservacion> reservaciones;
     
 }
